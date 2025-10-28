@@ -1,0 +1,40 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Кэш Hugging Face (если останется)
+.cache/
+.huggingface/
+
+# Секреты
+.env
+*.env
+
+# Локальные данные
+*.pdf
+*.docx
+*.txt
+*.json
+data/
+local_*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Вспомогательное
+config.py
+test_*.py
