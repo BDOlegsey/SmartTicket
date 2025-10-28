@@ -43,10 +43,10 @@ app = workflow.compile()
 
 # Запуск
 if __name__ == "__main__":
-    result = app.invoke({"textbook_path": "types.pdf"})
+    result = app.invoke({"textbook_path": "example.pdf"})
 
     output = {
-        "source_textbook": "types.pdf",
+        "source_textbook": "example.pdf",
         "generated_tickets": result["tickets"],
         "external_examples": result.get("external_examples", [])
     }
