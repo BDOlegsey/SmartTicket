@@ -1,0 +1,11 @@
+langchain==0.3.7
+langchain-core==0.3.15
+langchain-community==0.3.5
+langchain-openai==0.2.5
+langgraph==0.2.40
+langsmith==0.1.147
+pypdf==5.1.0
+python-dotenv==1.0.1
+googlesearch-python==1.3.0
+numpy==1.26.4
+scikit-learn>=1.3.0
